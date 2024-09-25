@@ -1,0 +1,49 @@
+
+<web-app >
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>segundaServlet</servlet-name>
+    <servlet-class>br.com.testandoServlet.SegundaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>segundaServlet</servlet-name>
+    <url-pattern>/segundaServlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>criaCantor</servlet-name>
+    <servlet-class>br.com.testandoServlet.CriaCantorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>criaCantor</servlet-name>
+    <url-pattern>/criaCantor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addCantor</servlet-name>
+    <servlet-class>web.CantorServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addCantor</servlet-name>
+    <url-pattern>/addCantor</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>criaMusica</servlet-name>
+    <servlet-class>br.com.testandoServlet.CriaMusicaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>criaMusica</servlet-name>
+    <url-pattern>/criaMusica</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>addMusica</servlet-name>
+    <servlet-class>web.MusicaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>addMusica</servlet-name>
+    <url-pattern>/addMusica</url-pattern>
+  </servlet-mapping>
+
+</web-app>
